@@ -62,3 +62,4 @@ github "xquartz",     "1.2.1"
 
 github "java",        "1.7.0"
 github "atom",        "1.0.0"
+github "iterm2",      "1.2.2"

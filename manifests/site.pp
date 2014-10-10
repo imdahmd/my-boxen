@@ -92,6 +92,7 @@ node default {
   # custom
   include java
   include atom
+  include iterm2::stable
 
   # git global configs
   git::config::global { 'user.email':
