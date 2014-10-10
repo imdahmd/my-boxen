@@ -91,4 +91,40 @@ node default {
 
   # custom
   include java
+  include atom
+
+  # git global configs
+  git::config::global { 'user.email':
+    value  => 'imdhmd@gmail.com'
+  }
+  git::config::global { 'user.name':
+    value  => 'Imdad Ahmed'
+  }
+  git::config::global { 'push.default':
+    value  => 'simple'
+  }
+  git::config::global { 'alias.co':
+    value  => 'checkout'
+  }
+  git::config::global { 'alias.ci':
+    value  => 'commit'
+  }
+  git::config::global { 'alias.st':
+    value  => 'status'
+  }
+  git::config::global { 'alias.pr':
+    value  => 'pull --rebase'
+  }
+  git::config::global { 'alias.d':
+    value  => 'diff'
+  }
+  git::config::global { 'alias.ds':
+    value  => 'diff --staged'
+  }
+  git::config::global { 'alias.cmr':
+    value  => 'commit --amend --reset-author'
+  }
+  git::config::global { 'alias.l':
+    value  => 'log --oneline'
+  }
 }

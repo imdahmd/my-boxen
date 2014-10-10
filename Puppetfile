@@ -61,3 +61,4 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "java",        "1.7.0"
+github "atom",        "1.0.0"

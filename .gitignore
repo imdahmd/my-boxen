@@ -11,3 +11,4 @@
 !/shared/README.md
 /vendor/gems/
 /vendor/puppet/cache/boxen-puppet-java-1.7.0.tar.gz
+/vendor/puppet/cache/boxen-puppet-atom-1.0.0.tar.gz
