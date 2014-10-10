@@ -14,6 +14,7 @@ Automate the following:
 - bigger font size
 - init script
 - open new tab in the previous dir
+- history sync across sessions
 
 # atom
 
@@ -22,3 +23,9 @@ Automate the following:
 # bash
 
 - aliases and functions
+- bash look (eg the prompt)
+
+# intellij
+
+- tommorow night theme
+- export settings (like plugins that need to be enabled)
