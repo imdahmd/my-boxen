@@ -93,6 +93,10 @@ node default {
   include java
   include atom
   include iterm2::stable
+  class { 'intellij':
+    edition => 'ultimate',
+    version => '13.1.5'
+  }
 
   # git global configs
   git::config::global { 'user.email':
