@@ -97,6 +97,9 @@ node default {
     edition => 'ultimate',
     version => '13.1.5'
   }
+  class { 'vlc':
+    version => '2.1.5'
+  }
 
   # git global configs
   git::config::global { 'user.email':
