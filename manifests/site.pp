@@ -100,6 +100,7 @@ node default {
   class { 'vlc':
     version => '2.1.5'
   }
+  include chrome
 
   # git global configs
   git::config::global { 'user.email':
