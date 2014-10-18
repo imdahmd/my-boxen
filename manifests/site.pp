@@ -101,6 +101,7 @@ node default {
     version => '2.1.5'
   }
   include chrome
+  include skype
 
   # git global configs
   git::config::global { 'user.email':
